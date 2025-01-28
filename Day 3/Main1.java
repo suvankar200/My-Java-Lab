@@ -12,6 +12,7 @@ class Car extends Vehicle
     double price;
     Car()
     {
+        super();
         model="BMW";
         price=5000000;
     }
