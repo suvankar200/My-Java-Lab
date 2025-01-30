@@ -1,12 +1,12 @@
 
 class Transport {
 
-    String trid;
-    String trname;
+    String tr_id;
+    String tr_name;
 
     Transport(String id, String name) {
-        trid = id;
-        trname = name;
+        tr_id = id;
+        tr_name = name;
     }
 }
 
@@ -20,7 +20,7 @@ class RoadTransport extends Transport {
     }
 
     void display() {
-        System.out.println(trid + " " + trname + " " + type);
+        System.out.println(tr_id + " " + tr_name + " " + type);
     }
 }
 
@@ -34,7 +34,7 @@ class WaterTransport extends Transport {
     }
 
     void display() {
-        System.out.println(trid + " " + trname + " " + speed);
+        System.out.println(tr_id + " " + tr_name + " " + speed);
     }
 }
 
@@ -48,7 +48,7 @@ class AirTransport extends Transport {
     }
 
     void display() {
-        System.out.println(trid + " " + trname + " " + cl);
+        System.out.println(tr_id + " " + tr_name + " " + cl);
     }
 }
 
