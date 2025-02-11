@@ -91,7 +91,7 @@ class LoanAccount extends CurrentAccount {
 public class Main11 {
     public static void main(String[] args) {
         FixedDeposit ob1 = new FixedDeposit("Suvankar", "A123", "2594", 10000, 5, 200);
-        LoanAccount ob2 = new LoanAccount("Soham", "X123", "2021", 20000, 5);
+        LoanAccount ob2 = new LoanAccount("Vidisha", "X123", "2021", 20000, 5);
         ob1.display();
         ob2.display();
     }
