@@ -23,7 +23,7 @@ public class Patientdetails {
 
         public static void main(String[] args) {
             Doctordetails ob1 = new Doctordetails("Suva", "ENT");
-            Patientdetails ob2 = new Patientdetails("12s", "Vidisha");
+            Patientdetails ob2 = new Patientdetails("12s", "Soham");
             ob1.show();
             ob2.display();
 
