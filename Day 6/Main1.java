@@ -10,9 +10,9 @@ class Division{
     void getinput()
     {
         Scanner sc=new Scanner(System.in);
-        System.out.println("ENter teh divident number");
+        System.out.println("Enter teh divident number");
         divident=sc.nextInt();
-        System.out.println("ENter teh divisor number");
+        System.out.println("Enter teh divisor number");
         divisor=sc.nextInt();
 
     }

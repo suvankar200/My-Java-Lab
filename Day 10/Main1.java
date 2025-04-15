@@ -11,7 +11,7 @@ public class Main1 {
         Statement st = null;
         ResultSet rs = null;
 
-        try {
+        try {   
             // Load MySQL JDBC Driver
             Class.forName("com.mysql.cj.jdbc.Driver");
             

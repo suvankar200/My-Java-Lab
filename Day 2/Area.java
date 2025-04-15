@@ -14,7 +14,7 @@ public class Area {
     }
 
     void show(String val) {
-        System.out.println("THe area of" + val + " is " + area);
+        System.out.println("The area of" + val + " is " + area);
     }
 
     public static void main(String[] args) {

@@ -3,6 +3,7 @@ interface one{
     public void display();
 }
 
+
 class Two implements one{
     float b,sum;
     Two(float x){

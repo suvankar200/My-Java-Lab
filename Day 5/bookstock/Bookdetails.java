@@ -16,11 +16,11 @@ public class Bookdetails extends Book{
     void display ()
 
     {
-        System.out.println("title"+title);
-        System.out.println("auther"+auther);
-        System.out.println("edition"+edition);
-        System.out.println("book_type"+book_type);
-        System.out.println("acc_no"+acc_no);
+        System.out.println("title "+title);
+        System.out.println("auther "+auther);
+        System.out.println("edition "+edition);
+        System.out.println("book_type "+book_type);
+        System.out.println("acc_no "+acc_no);
     }
     
     
